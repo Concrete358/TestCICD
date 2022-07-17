@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/com/sandbox/budget/rest/BudgetApplication.jar
+web: java -Dserver.port=$PORT -jar target/rest/rest-0.0.1-SNAPSHOT.jar
