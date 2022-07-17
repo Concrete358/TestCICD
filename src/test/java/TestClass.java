@@ -6,6 +6,6 @@ public class TestClass {
 
     @Test
     public void justTest() {
-        assertTrue(5>4);
+        assertTrue(5>6);
     }
 }
