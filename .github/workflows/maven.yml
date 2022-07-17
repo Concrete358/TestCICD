@@ -25,6 +25,6 @@ jobs:
     - name: Print a line into console
       run: echo "Wow it works"
     - name: Test with Maven
-      run: mvn test
+      run: mvn -B test --file pom.xml
     - name: Build with Maven
       run: mvn -B package --file pom.xml
